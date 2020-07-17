@@ -10,7 +10,7 @@ const App = () => {
   const [items, setItems] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [query, setQuery] = useState('')
-  const baseUrl = 'http://gateway.marvel.com/v1/public/characters?orderBy=-modified&limit=40&'
+  const baseUrl = 'https://gateway.marvel.com/v1/public/characters?orderBy=-modified&limit=40&'
   const hash = "5a9800abdfa4e535d456db10566d85de"
 
   useEffect(() => {
