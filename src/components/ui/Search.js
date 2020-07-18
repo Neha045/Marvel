@@ -9,7 +9,7 @@ const Search = ({ getQuery }) => {
   }
 
   return (
-    <section className='search'>
+    <section className='container search'>
       <form>
         <label className="center">
           Search Characters:

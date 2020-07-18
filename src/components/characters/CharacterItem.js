@@ -10,20 +10,11 @@ const CharacterItem = ({ item }) => {
         </div>
         <div className='card-back'>
           <h1>{item.name}</h1>
-          <ul>
+          <ul  id="inner">
             <li>
-              <strong>Character Name:</strong> {item.name}
-            </li>
-            <li>
-              <strong>Comics Available:</strong> {item.comics.available}
-            </li>
-            <li>
-              <strong>Series Available:</strong> {item.series.available}
-            </li>
-            <li>
-              <strong>Stories Available:</strong> {item.series.available}
-            </li>
-          </ul>
+              <strong>Description:</strong> {item.description}
+            </li>        
+           </ul>
         </div>
       </div>
     </div>

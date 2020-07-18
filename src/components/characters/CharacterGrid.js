@@ -5,7 +5,7 @@ import Spinner from '../ui/Spinner'
 const CharacterGrid = ({items, isLoading})=> {
     return isLoading ? 
     <Spinner /> : 
-    <section className='cards'>
+    <section className='container cards'>
     {items.data.results.map((item) => (
       <CharacterItem key={item.id} item={item}></CharacterItem>
     ))}

@@ -3,6 +3,7 @@ import axios from 'axios'
 import Header from './components/ui/header'
 import Search from './components/ui/Search'
 import CharacterGrid from './components/characters/CharacterGrid'
+import Nav from './components/ui/Nav'
 import './App.css'
 
 
@@ -35,10 +36,11 @@ const App = () => {
   }, [query])
 
   return (
-    <div className="container">
+    <div>
       <Header />
       <Search getQuery={(q)=> setQuery(q) }/>
       <CharacterGrid isLoading={isLoading} items={items} />
+      <Nav items={items} />
     </div>
   );
 }
