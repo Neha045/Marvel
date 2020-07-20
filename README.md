@@ -12,7 +12,7 @@
 ### Requirement
 ---
 * Nodejs
-* Marvel API key
+* Marvel API key [here](https://developer.marvel.com/)
 
 ### Usage
 ---
