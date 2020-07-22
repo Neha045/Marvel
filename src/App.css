@@ -68,7 +68,7 @@ input[type='text'] {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  margin-bottom:30px;
+  margin-bottom:50px;
 }
 
 .card {
@@ -118,6 +118,13 @@ input[type='text'] {
     overflow: auto;
     height: 100%;
     padding-right: 15px;
+    padding-bottom: 25px;
+}::-webkit-scrollbar {
+  width: 5px; 
+  background: transparent;  /* make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff71;
 }
 
 .card-back {
@@ -138,7 +145,7 @@ input[type='text'] {
   text-align: center;
   width:100%;
   position: fixed;
-  top: 0;
+  bottom: 0;
   
 }
 .copyright {
