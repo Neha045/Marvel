@@ -1,7 +1,5 @@
 # Marvel
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
  > Search all Marvel comics characters
  >
  > Made by using MARVEL-API
